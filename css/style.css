@@ -1,0 +1,100 @@
+/* Home page styles
+*
+*
+*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Photo Zoom*/
+.home-header-logo img:hover, .home-fp-container .card img:hover{
+    opacity: 0.8;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+/* image styles*/
+.home-header-logo img, .carousel img {
+    object-fit: contain;
+    overflow: hidden;
+}
+
+/* Text green */
+.home-fp-container h3 span, .do-text-green{
+    color: green;
+}
+
+
+/* Text Uppercase*/
+.home-main-container h3, .do-text-uppercase {
+    text-transform: uppercase;
+}
+
+/*Margin top */
+.do-margin-top {
+    margin-top:30px;
+}
+
+/*Section Extra Space*/
+.do-section-space{
+    padding-top:50px;
+}
+
+.home-main-container .card span{
+    font-weight:bold;
+    color:green;
+}
+
+/*Large Green Button*/
+.make-lg-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    min-width:150px;
+    font-size:20px;
+    background:#218838;
+    border:none;
+    color:#fff;
+    border-radius: 5px;
+}
+
+.home-main-container .card{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.home-main-container .jumbotron {
+    border-radius: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.home-footer-site-info-container{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.home-fp-container button:hover {
+    opacity: 0.8;
+}
+
+.home-footer-site-info-container a {
+    color:#000;
+}
+
+.home-footer-site-info div:nth-child(even){
+    text-align: right;
+}
+
+.home-footer-site-info div:nth-child(odd){
+    text-align:left;
+}
+
+.home-footer-site-info .col-sm-12 {
+    text-align: left;
+}
